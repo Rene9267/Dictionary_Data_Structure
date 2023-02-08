@@ -111,8 +111,8 @@ int main(int argc, char const *argv[])
     Dictionary_insert(dictionary_table, "Hello World", "Die", 11);
     Dictionary_insert(dictionary_table, "This is me", "Poato", 10);
     Dictionary_insert(dictionary_table, "New", "Coffie", 3);
-    Dictionary_insert(dictionary_table, "Hello mauro", "Amigo", 11);
-    Dictionary_insert(dictionary_table, "Hello isma", "Pino", 10);
+    Dictionary_insert(dictionary_table, "Hello Friend", "Amigo", 11);
+    Dictionary_insert(dictionary_table, "Hello Man", "Pino", 10);
 
     Dictionary_insert(dictionary_table, "Computer", "Science", 8);
     Dictionary_insert(dictionary_table, "Hello Moto", "Rola", 10);
@@ -123,6 +123,6 @@ int main(int argc, char const *argv[])
     Search((struct set_table *)dictionary_table, "This is me", -1);
 
     Remove_Sets((Set_Table_t *)dictionary_table, "Hello");
-    Remove_Sets((Set_Table_t *)dictionary_table, "Hello mauro");
+    Remove_Sets((Set_Table_t *)dictionary_table, "Hello Friend");
     Print_Dictionary(dictionary_table);
 }
